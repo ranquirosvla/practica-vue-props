@@ -1,6 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import Padre from './components/Padre.vue'
+
 </script>
 
 <template>
@@ -9,6 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <Padre msg="Soy el Padre"/>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
