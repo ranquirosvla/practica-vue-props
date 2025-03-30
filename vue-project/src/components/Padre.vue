@@ -12,10 +12,16 @@ export default{
         'componente-editor' : Editor,
     },
 
+    props: {
+        titulo: {
+            type: String,
+        },
+    }    
+  
+
 }
 
-    
-
+   
 
 </script>
 
