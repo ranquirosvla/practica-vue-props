@@ -1,5 +1,6 @@
 <script>
 import Editor from './Editor.vue';
+import Vista from './Vista.vue';
 
 export default{
     data() {
@@ -10,6 +11,7 @@ export default{
     },
     components: {
         'componente-editor' : Editor,
+        'componente-vista' : Vista,
     },
 
     props: {

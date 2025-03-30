@@ -1,6 +1,6 @@
 <template>
-
-
+<h1>Vista</h1>
+<h2>{{ textoAvisualizar }}</h2>
 
 </template>
 
