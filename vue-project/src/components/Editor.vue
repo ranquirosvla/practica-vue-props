@@ -1,8 +1,9 @@
 <template>
     <section>
       <h1>Editor</h1>
-    
-      
+      <input v-bind:value="textoAEditar" />
+   
+  
     </section>
   </template>
   
